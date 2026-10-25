@@ -1,0 +1,17 @@
+# Python 3.11.9; versions recorded during the submission-code verification.
+numpy==2.2.6
+pandas==2.3.0
+matplotlib==3.10.3
+scikit-learn==1.7.0
+scipy==1.15.3
+rasterio==1.4.3
+fiona==1.10.1
+shapely==2.1.1
+pyproj==3.7.1
+PyKrige==1.7.2
+mgwr==2.2.1
+libpysal==4.13.0
+esda==2.7.1
+tabpfn==8.5.0
+torch==2.14.0
+cloudpickle==3.1.1
