@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the Python workflow for soil pH mapping using a stacking ensemble of Random Forest (RF) and TabPFN. Four stacking-based spatial modelling strategies are evaluated: projected coordinates, spatial lag features, regression kriging (RK), and geographically weighted regression (GWR). All models are evaluated using the same five outer kNNDM cross-validation folds linked to the farmland prediction domain.
+This repository contains the Python workflow for soil pH mapping using a stacking ensemble of Random Forest (RF) and Tabular Prior-data Fitted Network (TabPFN). Four stacking-based spatial modelling strategies are evaluated: projected coordinates, spatial lag features, regression kriging (RK), and geographically weighted regression (GWR). All models are evaluated using the same five outer kNNDM cross-validation folds linked to the farmland prediction domain.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ This repository contains the Python workflow for soil pH mapping using a stackin
 
 The soil sample data are not publicly available due to institutional restrictions. Input rasters, the farmland boundary, and model weights are not included in this repository.
 
-Configure `DATA_PATH`, `RASTER_PATH`, `FARM_PATH`, and `TABPFN_MODEL_PATH` in `tougao.py`, or set the corresponding environment variables. The sample covariate columns must match the raster bands in order. The covariate raster must use EPSG:32649 at 30 m resolution.
+Configure `DATA_PATH`, `RASTER_PATH`, `FARM_PATH`, and `TABPFN_MODEL_PATH` in `Code.py`, or set the corresponding environment variables. The sample covariate columns must match the raster bands in order. The covariate raster must use EPSG:32649 at 30 m resolution.
 
 Install the required Python packages and run:
 
