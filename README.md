@@ -29,7 +29,7 @@ Install the required Python packages and run:
 
 ```bash
 python -m pip install -r requirements.txt
-python tougao.py
+python code.py
 ```
 
-The workflow exports four pH prediction GeoTIFFs and four IDW-interpolated absolute outer-validation error GeoTIFFs. The error surfaces are descriptive indicators, not calibrated prediction intervals. Results are saved in `tougao_outputs`.
+The workflow exports four pH prediction GeoTIFFs and four IDW-interpolated absolute outer-validation error GeoTIFFs. The error surfaces are descriptive indicators, not calibrated prediction intervals. Results are saved in `code_outputs`.
